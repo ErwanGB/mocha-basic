@@ -28,6 +28,7 @@ build/Release
 
 # Dependency directories
 node_modules
+mochawesome-reports
 jspm_packages
 
 # Optional npm cache directory
