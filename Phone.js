@@ -1,5 +1,5 @@
 //Repos,Sonnerie,EnConversation,EnAppel,Décroché
-// Let's go
+"use strict";
 
 class Phone {
     constructor (){
