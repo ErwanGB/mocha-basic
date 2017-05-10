@@ -1,3 +1,6 @@
+
+"use strict";
+
 let expect = require('expect')
 const Phone = require('./Phone');
 const phone = new Phone()
@@ -126,6 +129,7 @@ describe('EnConversation', () => {
   })
   it('Raccrocher should change the state to Repos', () => {
     phone.state = ('EnConversation')
+    console.log('plouf')
     phone.Raccrocher()
     expect(phone.state).toEqual("Repos")    
   })
@@ -177,6 +181,7 @@ describe('EnAppel', () => {
     expect(phone.state).toEqual("Repos")    
   })
   it('Décrocher should not change the state', () => {
+  it('Decrocher should not change the state', () => {
     phone.state = ('EnAppel')
     phone.Decrocher()
     expect(phone.state).toEqual("EnAppel")    

@@ -1,5 +1,7 @@
 //Repos,Sonnerie,EnConversation,EnAppel,Décroché
 
+"use strict";
+
 class Phone {
     constructor (){
         this.state = ""
