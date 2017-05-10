@@ -180,7 +180,6 @@ describe('EnAppel', () => {
     phone.Raccrocher()
     expect(phone.state).toEqual("Repos")    
   })
-  it('Décrocher should not change the state', () => {
   it('Decrocher should not change the state', () => {
     phone.state = ('EnAppel')
     phone.Decrocher()
